@@ -1,64 +1,61 @@
 import React from "react";
 import "./register-main.css";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 
 const RegisterMain = () => {
 	return (
 		<div className="register-main">
 			<div className="register-container">
 				<h1 className="main-heading">Create Account 😃</h1>
-				<div className="form-container my-4">
-					<input
-						type="text"
-						placeholder="Full Name"
-						required
-						className="form-control"
-					/>
-				</div>
 
-				<div className="form-container my-4">
-					<input
-						type="number"
-						placeholder="Mobile Number"
-						required
-						className="form-control"
-					/>
-				</div>
+				<FloatingLabel
+					controlId="floatingFullName"
+					label="Full Name"
+					className="my-4"
+				>
+					<Form.Control type="text" placeholder="Firstname Lastname" required />
+				</FloatingLabel>
 
-				<div className="form-container my-4">
-					<input
-						type="email"
-						placeholder="Email Address"
-						required
-						className="form-control"
-					/>
-				</div>
+				<FloatingLabel
+					controlId="floatingMobile"
+					label="Mobile Number"
+					className="my-4"
+				>
+					<Form.Control type="number" placeholder="0000000" required />
+				</FloatingLabel>
 
-				<div className="form-container my-4">
-					<input
-						type="date"
-						placeholder="Date of birth (DD/MM/YYYY)"
-						required
-						className="form-control"
-					/>
-				</div>
+				<FloatingLabel
+					controlId="floatingEmail"
+					label="Email Address"
+					className="my-4"
+				>
+					<Form.Control type="email" placeholder="Email Address" required />
+				</FloatingLabel>
 
-				<div className="form-container my-4">
-					<input
-						type="password"
-						placeholder="Enter Password"
-						required
-						className="form-control"
-					/>
-				</div>
+				<FloatingLabel
+					controlId="floatingDateOfBirth"
+					label="Date of birth (DD/MM/YYYY)"
+					className="my-4"
+				>
+					<Form.Control type="email" placeholder="DD/MM/YYYY" required />
+				</FloatingLabel>
 
-				<div className="form-container my-4">
-					<input
-						type="password"
-						placeholder="Confirm Password"
-						required
-						className="form-control"
-					/>
-				</div>
+				<FloatingLabel
+					controlId="floatingPassword"
+					label="Password"
+					className="my-4"
+				>
+					<Form.Control type="password" placeholder="*******" required />
+				</FloatingLabel>
+
+				<FloatingLabel
+					controlId="floatingConfirmPassword"
+					label="Confirm Password"
+					className="my-4"
+				>
+					<Form.Control type="password" placeholder="*******" required />
+				</FloatingLabel>
 
 				<div className="form-container my-4">
 					<button className="main-btn p-2">Create Account</button>

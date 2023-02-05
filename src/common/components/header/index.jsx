@@ -3,15 +3,10 @@ import Logo from "../logo";
 import "./header.css";
 import CartIcon from "../../assets/images/cart";
 import logoIcon from "../../assets/images/user.svg";
-import { useNavigate } from "react-router-dom";
+import { CustomNavigate } from "../../../navigateCustomHook/navigate";
 
 const Header = () => {
-	const navigate = useNavigate();
-	// const goToLoginPage = () => {
-	// 	navigate("/login");
-	// };
-
-	const handleRoute = (routeUrl) => navigate(routeUrl);
+	const handleRoute = CustomNavigate();
 
 	return (
 		<div className="container-lg">
