@@ -1,0 +1,55 @@
+.phone-product {
+	text-align: left;
+	margin: 20px 0;
+}
+
+.phone-image {
+	min-width: 182px;
+	min-height: 172px;
+}
+
+.phone-offer {
+	background-color: rgba(33, 193, 122, 0.7);
+	border: 1px solid #21c17a;
+	border-radius: 2px;
+	padding: 5px;
+	color: white;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.phone-name {
+	color: #1e2228;
+	font-weight: bold;
+}
+
+.phone-prices {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	max-width: 80%;
+}
+
+.current-price {
+	color: #1e2228;
+	font-weight: bold;
+}
+
+.original-price {
+	color: #939599;
+	font-size: 14px;
+	text-decoration: line-through;
+}
+
+.discount {
+	color: #21c17a;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.emi {
+	font-size: 12px;
+	color: #ff2c91;
+	font-weight: bold;
+}

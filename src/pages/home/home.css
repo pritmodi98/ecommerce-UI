@@ -1,4 +1,10 @@
-.common-section{
-    height: 400px;
-    border: 3px solid red;
+.common-section {
+	height: 400px;
+	border: 3px solid red;
+}
+
+.body-main {
+	background: #f5f5f5bf;
+	padding: 50px 0 100px 0;
+    min-height: 500px;
 }
