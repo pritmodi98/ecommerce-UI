@@ -4,6 +4,7 @@ import Header from "../../common/components/header";
 import "./home.css";
 import ImageSlider from "./components/image-slider";
 import PopularOffers from "./components/popular-offers";
+import Footer from "../../common/components/footer";
 
 const Home = () => {
 	return (
@@ -16,7 +17,7 @@ const Home = () => {
 				<PopularOffers />
 			</div>
 			<section className="common-section">Payments</section>
-			<section className="common-section">footer</section>
+			<Footer />
 		</div>
 	);
 };

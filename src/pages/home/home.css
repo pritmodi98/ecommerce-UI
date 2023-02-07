@@ -1,10 +1,10 @@
 .common-section {
-	height: 400px;
+	height: 600px;
 	border: 3px solid red;
 }
 
 .body-main {
 	background: #f5f5f5bf;
 	padding: 50px 0 100px 0;
-    min-height: 500px;
+	min-height: 500px;
 }
