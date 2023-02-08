@@ -12,7 +12,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "16% off",
 		offer: "12% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qww123",
+		id: "qww123",
 	},
 	{
 		imageFile: phone2,
@@ -22,7 +22,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "10% off",
 		offer: "5% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qer234",
+		id: "qer234",
 	},
 	{
 		imageFile: phone3,
@@ -32,7 +32,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "7% cashback",
 		emi: "EMI starts @ ₹5000",
-		id: "#jdj564",
+		id: "jdj564",
 	},
 	{
 		imageFile: phone4,
@@ -42,7 +42,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "10% cashback",
 		emi: "EMI starts @ ₹8500",
-		id: "#dnh123",
+		id: "dnh123",
 	},
 	{
 		imageFile: phone1,
@@ -52,7 +52,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "16% off",
 		offer: "12% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qww123",
+		id: "hdi334",
 	},
 	{
 		imageFile: phone2,
@@ -62,7 +62,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "10% off",
 		offer: "5% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qer234",
+		id: "ncg334",
 	},
 	{
 		imageFile: phone3,
@@ -72,7 +72,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "7% cashback",
 		emi: "EMI starts @ ₹5000",
-		id: "#jdj564",
+		id: "ndo664",
 	},
 	{
 		imageFile: phone4,
@@ -82,7 +82,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "10% cashback",
 		emi: "EMI starts @ ₹8500",
-		id: "#dnh123",
+		id: ",doe987",
 	},
 	{
 		imageFile: phone1,
@@ -92,7 +92,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "16% off",
 		offer: "12% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qww123",
+		id: "mle387",
 	},
 	{
 		imageFile: phone2,
@@ -102,7 +102,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "10% off",
 		offer: "5% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qer234",
+		id: "euy843",
 	},
 	{
 		imageFile: phone3,
@@ -112,7 +112,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "7% cashback",
 		emi: "EMI starts @ ₹5000",
-		id: "#jdj564",
+		id: "nce832",
 	},
 	{
 		imageFile: phone4,
@@ -122,7 +122,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "10% cashback",
 		emi: "EMI starts @ ₹8500",
-		id: "#dnh123",
+		id: "mne632",
 	},
 	{
 		imageFile: phone1,
@@ -132,7 +132,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "16% off",
 		offer: "12% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qww123",
+		id: "swt130",
 	},
 	{
 		imageFile: phone2,
@@ -142,7 +142,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "10% off",
 		offer: "5% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qer234",
+		id: "nwo465",
 	},
 	{
 		imageFile: phone3,
@@ -152,7 +152,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "7% cashback",
 		emi: "EMI starts @ ₹5000",
-		id: "#jdj564",
+		id: "mjs822",
 	},
 	{
 		imageFile: phone4,
@@ -162,7 +162,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "10% cashback",
 		emi: "EMI starts @ ₹8500",
-		id: "#dnh123",
+		id: "ccs343",
 	},
 	{
 		imageFile: phone1,
@@ -172,7 +172,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "16% off",
 		offer: "12% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qww123",
+		id: "wdi276",
 	},
 	{
 		imageFile: phone2,
@@ -182,7 +182,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "10% off",
 		offer: "5% cashback",
 		emi: "EMI starts @ ₹1356",
-		id: "#qer234",
+		id: "jdy844",
 	},
 	{
 		imageFile: phone3,
@@ -192,7 +192,7 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "7% cashback",
 		emi: "EMI starts @ ₹5000",
-		id: "#jdj564",
+		id: "koe345",
 	},
 	{
 		imageFile: phone4,
@@ -202,6 +202,6 @@ export const SAMPLE_PHONES_PRODUCT_LIST = [
 		discount: "20% off",
 		offer: "10% cashback",
 		emi: "EMI starts @ ₹8500",
-		id: "#dnh123",
+		id: "por733",
 	},
 ];

@@ -1,7 +1,14 @@
 import React from "react";
+import { CustomNavigate } from "../../../navigateCustomHook/navigate";
 import "./phone-product.css";
 
 const PhoneProduct = (props) => {
+	const routeHandler = CustomNavigate();
+
+	const goToProductDetailPage = () => {
+		const prodName = name.replaceAll(" ", "-");
+		routeHandler(`/products/${prodName}/${id}`);
+	};
 	const {
 		imageFile,
 		name,
@@ -12,8 +19,9 @@ const PhoneProduct = (props) => {
 		emi,
 		id,
 	} = props;
+
 	return (
-		<div className="phone-product">
+		<div className="phone-product" onClick={goToProductDetailPage}>
 			<div className="phone-image">
 				<img src={imageFile} alt={`${id}-${name}`} />
 			</div>

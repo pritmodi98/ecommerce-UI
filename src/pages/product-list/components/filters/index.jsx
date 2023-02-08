@@ -17,7 +17,7 @@ const Filters = () => {
 					</div>
 					<div className="brands-options">
 						{brandsOptions.map(({ name, count }) => (
-							<div className="brands-option">
+							<div className="brands-option" key={name}>
 								<div className="d-flex">
 									<input type="checkbox" />
 									<span>{name}</span>

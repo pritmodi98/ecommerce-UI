@@ -10,8 +10,8 @@ const ProductsMain = () => {
 			<div className="all-products-list">
 				<div className="row">
 					{SAMPLE_PHONES_PRODUCT_LIST.map((phone) => (
-						<div className="col-md-3">
-							<PhoneProduct {...phone} key={phone.id} />
+						<div className="col-md-3" key={phone.id}>
+							<PhoneProduct {...phone} />
 						</div>
 					))}
 				</div>
