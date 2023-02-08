@@ -8,7 +8,9 @@ const PopularOffersPhones = () => {
 		<div className="popular-phones-main">
 			<div className="row">
 				{SAMPLE_PHONES.map((phone) => (
-					<PhoneProduct {...phone} key={phone.id} />
+					<div className="col">
+						<PhoneProduct {...phone} key={phone.id} />
+					</div>
 				))}
 			</div>
 		</div>
